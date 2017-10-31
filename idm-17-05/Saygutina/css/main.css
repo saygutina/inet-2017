@@ -1,0 +1,87 @@
+body {
+    overflow: hidden;
+    font-size: 16px;
+}
+
+section {
+    min-height: 100vh;
+    height: 100vh;
+    background: #ccc;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    background: linear-gradient(to top left, powderblue, pink);
+}
+
+section#main {
+    background: linear-gradient(to top left, powderblue, pink);
+}
+
+section#lab1 {
+    background: linear-gradient(to top left, #e4c0b4, #fff0b3);
+}
+
+section#lab2 {
+    background: linear-gradient(to top left, #d3ffb3, #8dd8ce);
+}
+
+section#lab3 {
+    background: linear-gradient(to top left, #ffc0ad, #d88dcb);
+}
+
+a, a.scroll, a:visited, a:focus {
+    transition: .3s;
+    color: #fcc2cd;
+}
+
+a:hover, a.scroll:hover, a.scroll:focus {
+    text-decoration: none;
+    color: #b3dee4;
+}
+
+header .topline {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background: #222222;
+    color: #ccc;
+    text-align: center;
+    line-height: 50px;
+}
+
+header .topline .topline-items {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
+header .topline .topline__item {
+    display: inline-block;
+    text-align: center;
+    padding-right: 30px;
+    font-size: 1.5em;
+}
+
+.author h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    text-shadow: -2px -2px 0 rgba(0, 0, 0, .1);
+}
+
+.title h2 {
+    font-size: 3em;
+    color: #606060;
+    text-shadow: -5px -5px 0 rgba(251, 194, 204, .3);
+    margin-bottom: 40px;
+    border-bottom: 2px dashed #606060;
+    padding-bottom: 15px;
+}
+
+.content {
+    width: 600px;
+    text-align: left;
+}
